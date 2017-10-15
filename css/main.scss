@@ -1,0 +1,64 @@
+---
+# main css styling for the site
+---
+
+/* Set text width */
+.container {
+    max-width: 960px;
+}
+
+
+/* Set background color */
+.background {
+    background-color: #69d2e5;
+}
+
+
+/* Set font */
+.navbar-brand {
+    font-family: 'Droid Serif', serif;
+}
+
+li {
+    font-family: 'Droid Serif', serif;
+}
+
+p {
+    font-family: 'Droid Serif', serif;
+}
+
+
+/* Header and footer padding */
+header {
+    padding-bottom: 40px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+
+/** Image styling */
+.img-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-portrait {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Link styling */
+a {
+    color: #696969;
+    border-bottom: 2px solid #696969;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e57c69;
+    border-bottom: 2px solid #e57c69;
+}

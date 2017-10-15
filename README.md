@@ -1,2 +1,3 @@
 # bporter816.github.io
-My personal website
+This repository contains the source code for my personal website, found
+[here](https://bporter816.github.io/).
