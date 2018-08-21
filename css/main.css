@@ -89,7 +89,7 @@ a, a:hover {
 
 /* images */
 .image {
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .image-wrapper {
