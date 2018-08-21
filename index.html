@@ -1,35 +1,75 @@
 ---
-title: Home
 layout: default
 ---
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-3 text-center img-wrapper">
-      <img class="img-portrait" src="img/benjaminporter.jpg">
+<div class="card-top d-flex align-items-center">
+  <div class="container sticky-top pad-bottom">
+    <div class="row">
+      <div class="col-md-3 d-flex justify-content-center image-wrapper">
+        <img class="image" src="img/bporter.jpg" width="192" height="192" alt="Benjamin Porter" />
+      </div>
+      <div class="col-md-9 d-flex justify-content-center align-items-center">
+        <h1 class="adaptive">Benjamin Porter</h1>
+      </div>
     </div>
-    <div class="col-md-9">
-      <p>
-        Hi! I'm Ben. I currently study computer science as a member of the
-        Turing Scholars Honors Program at the University of Texas at Austin. I'm
-        interested in algorithms and machine learning. Recently, I've gotten
-        into more applied areas of CS, such as game design. In my free time, I
-        enjoy reading, competitive programming, and being a strategy game
-        connoisseur.
-      </p>
-      <p>
-        I previously held an internship at
-        <a href="https://parasol.tamu.edu">Parasol Laboratory</a>, where I
-        worked with robotic motion planning as it applies to computational
-        biology. This experience exposed me to research in academia and
-        introduced me to neural networks, piquing my interest in machine
-        learning. You can read more about this project
-        <a href="https://parasol.tamu.edu/people/bporter">here</a>.
-      </p>
-      <p>
-        If you're interested in my projects or want to reach out to me, feel
-        free to send me an <a href="{{ site.email }}">email</a> or to take a
-        look at my <a href="resume/resume.pdf">resume</a>.
-      </p>
+    <div class="row short">
+      <a href="{{ site.email }}" class="link col">
+        <i class="fas fa-envelope"></i><br />
+        <p>email</p>
+      </a>
+      <a href="{{ site.github }}" class="link col">
+        <i class="fab fa-github"></i><br />
+        <p>email</p>
+      </a>
+      <a href="{{ site.linkedin }}" class="link col">
+        <i class="fab fa-linkedin"></i><br />
+        <p>email</p>
+      </a>
+      <a href="resume/resume.pdf" class="link col">
+        <i class="fas fa-file-alt"></i><br />
+        <p>email</p>
+      </a>
     </div>
   </div>
+</div>
+<div class="card-pad d-flex justify-content-center align-items-center">
+  <i class="fas fa-angle-down"</i>
+</div>
+<div class="container">
+  <p>
+    Hi! My name is Ben. I'm currently studying computer science at the University
+    of Texas at Austin, where I'm a member of the Turing Scholars Honors Program.
+    Programming has given me amazing opportunities to build projects, meet new
+    people, and learn new skills.
+  </p>
+  <h1>experience</h1>
+  <p>
+    At <a href="{{ site.parasol }}">Parasol Laboratory</a>, I worked with
+    robotic motion planning as it applies to modeling ligand-protein binding.
+    I learned several languages (C++, LaTeX) and tools (Vim, Git, gdb, shell)
+    that I still use daily, and participated in structured code review.
+    Details and a report can be found <a href="{{ site.parasol_user }}">here</a>.
+  </p>
+  <h1>projects and interests</h1>
+  <p>
+    I love to solve problems and participate in programming contests and
+    hackathons in my spare time. I maintain a repository of problems I've solved
+    <a href="{{ site.github }}/online-judge">here</a>.
+  </p>
+  <p>
+    Game design is one of my hobbies. Several team projects during and following
+    high school have given me the opportunity to learn Unity and agile development
+    principles. <a href="{{ site.github }}/pestcontrol">Pest Control</a> is a
+    project I worked on for a statewide game design contest that allowed me to
+    oversee a small team and help build a level of a game with unique mechanics.
+  </p>
+  <h1>contact</h1>
+  <p>
+    I'm looking for internship opportunities for summer 2019. If you want to get
+    in touch, feel free to email me at <a href="{{ site.email }}">{{ site.email }}</a>.
+    Your can find my LinkedIn profile <a href="{{ site.linkedin }}">here</a> and a
+    copy of my resume <a href="resume/resume.pdf">here</a>.
+  </p>
+  <p>
+    Last updated {{ site.time }}.
+  </p>
 </div>

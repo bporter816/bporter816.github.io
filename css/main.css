@@ -1,0 +1,98 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/* adaptive font size for site title */
+@media(min-width: 576px) {
+    .adaptive {
+        font-size: 4em;
+    }
+}
+
+@media(min-width: 768px) {
+    .adaptive {
+        font-size: 5em;
+    }
+}
+
+@media(min-width: 992px) {
+    .adaptive {
+        font-size: 6em;
+    }
+}
+
+@media(min-width: 1200px) {
+    .adaptive {
+        font-size: 7em;
+    }
+}
+
+/* background size and colors */
+body {
+    background: #161616;
+}
+
+.card-top {
+    background: #242424;
+    height: 85vh;
+}
+
+/* misc padding and centering */
+
+.card-pad {
+    height: 15vh;
+}
+
+.pad-bottom {
+    padding-bottom: 24px;
+}
+
+.short {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+/* text */
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.33rem;
+    color: #ffffff;
+}
+
+/* fontawesome icons */
+i {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/* links */
+a, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.link {
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #161616;
+    border-radius: 4px;
+}
+
+/* images */
+.image {
+    border-radius: 50px;
+}
+
+.image-wrapper {
+    padding: 24px;
+}
+
